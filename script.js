@@ -38,7 +38,7 @@ while(opcao !== "5"){
         let indice = prompt("Digite o índice da tarefa para concluir:")
         indice = Number(indice)
         if(indice >= 0 && indice < tarefas.length) {
-            tarefas[indice] = "ok" + tarefas[indice]
+            tarefas[indice] = "✅" + tarefas[indice]
             alert("Tarefa Concluída!")
         }else{
             alert("Índice Inválido.")
@@ -49,5 +49,6 @@ while(opcao !== "5"){
         alert("Opção inválida.")
     }
 }
+
 
 
